@@ -1,0 +1,76 @@
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Aakash Dhakal</title>
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="JS/script.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla One|Kanit|Varela Round|Monda|Asap|Audiowide">
+      <script src="https://kit.fontawesome.com/e7e64de2ec.js" crossorigin="anonymous" async></script>
+   </head>
+   <body>
+      <div id="preloader">
+         <img src="logo.png">
+      </div>
+      <section id="navigation" class="navigation">
+         <header>
+            <nav class="navbar">
+               <div class="max-width">
+                  <div class="logo-container">
+                     <a href="#">
+                        <h1 class="header">Aakash Dhakal</h1>
+                     </a>
+                  </div>
+                  <ul class="nav-links">
+                     <li><a href="index.html" id="active"><i class="fas fa-house"></i>&nbspHome</a></li>
+                     <li><a href="blog.html" class="nav-button"><i class="fa-solid fa-square-pen"></i>&nbspBlogs</a></li>
+                     <li><a href="about.html" class="nav-button"><i class="fa-solid fa-user"></i>&nbspAbout Me</a></li>
+                     <li>
+                        <a href="#">
+                        <button id="contact">Contact</button>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+      </section>
+      <section class="welcome">
+         <div class="max-width">
+            <div class="welcome-container">
+               <div class="text-1">Hello, my name is</div>
+               <div class="text-2">Aakash Dhakal</div>
+               <div class="text-3">And I'm a <span class="typing"></span></div>
+               <a href="#">
+               <button id="about">About me</button>
+               </a>
+			   <div class="icon-container">
+			   <ul class="social-icons">
+			   <li><a href="#"><i class="fab fa-github"></i></a></li>
+					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+					
+			   </ul>
+			   </div>
+			   </div>
+            <div class="image-container">
+               <img src="Images/about.jpg">
+               <a href="#">
+               <button id="about">Download CV</button>
+               </a>
+            </div>
+			
+         </div>
+	
+      </section>
+	  <div class="custom-shape-divider-bottom-1646199425">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200,0H0V120H281.94C572.9,116.24,602.45,3.86,602.45,3.86h0S632,116.24,923,120h277Z" class="shape-fill"></path>
+    </svg>
+	</div>
+	</body>
+	</h
