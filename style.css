@@ -367,6 +367,10 @@ background: linear-gradient(190deg, rgba(0,0,0,1) 3%, rgba(0,0,0,0.7259278711484
 	{
 		display: none;
 	}
+	.welcome .image-container img
+	{
+		width: 10rem;;
+	}
 	.nav-active
 	{
 	transform: translateX(0%);
@@ -387,19 +391,6 @@ background: linear-gradient(190deg, rgba(0,0,0,1) 3%, rgba(0,0,0,0.7259278711484
 		{
 			opacity: 1;
 			transform: translateX(0px);
-		}
-	}
-	@keyframes navLinkFadeOut
-	{
-		0%
-		{
-			opacity: 1;
-			transform: translateX(0px);
-		}
-		100%
-		{
-			opacity: 0;
-			transform: translateX(50px);
 		}
 	}
 	.lock-scroll
@@ -424,7 +415,7 @@ background: linear-gradient(190deg, rgba(0,0,0,1) 3%, rgba(0,0,0,0.7259278711484
 	{
 		display: flex;
 		justify-content: center;
-		margin-left: 35%
+		margin-left: 37%
 		
 
 	}
@@ -435,5 +426,26 @@ background: linear-gradient(190deg, rgba(0,0,0,1) 3%, rgba(0,0,0,0.7259278711484
 	.welcome .social-icons
 	{
 		display: none;
+	}
+	.welcome .welcome-container .text-1
+	{
+		font-size: 4vh;
+	}
+	.welcome .welcome-container .text-2
+	{
+		font-size: 5.8vh;
+	}
+	.welcome .welcome-container
+	{
+		text-align: center;
+		line-height: 2;
+	}
+	.welcome .welcome-container .text-3
+	{
+		font-size: 4.2vh;
+	}
+	.welcome .welcome-container button
+	{
+		margin-top: 30%;
 	}
 }
