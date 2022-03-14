@@ -1,4 +1,4 @@
-
+/*CSS Starts*/
 html {
 	scroll-behavior: smooth;
 }
@@ -8,9 +8,10 @@ html {
 	padding: 0px;
 }
 @font-face {
-	font-family: Signature;
-	src: url(Signature.ttf);
+	font-family: Jengkol;
+	src: url(Jengkol.ttf);
 }
+/*Preloader*/
 
 #preloader {
 	height: 100%;
@@ -27,6 +28,7 @@ html {
 #preloader img {
 	width: 20rem;
 }
+/*Custom Scrollbar*/
 
 ::-webkit-scrollbar {
 	width: 10px;
@@ -44,11 +46,6 @@ html {
 ::-webkit-scrollbar-thumb:hover {
 	background: #555;
 }
-.welcome {
-	display: flex;
-	width: 100%;
-	height: 100vh;
-}
 .navigation
 {
 	width: 100%;
@@ -63,8 +60,8 @@ html {
 }
 
 .navigation .header {
-	font-family: Signature;
-	font-size: 4vw;
+	font-family: Jengkol;
+	font-size: 3vw;
 	color: #ffffff;
 	transition: all 0.3s ease;
 	cursor: pointer;
@@ -152,14 +149,7 @@ nav ul i {
 #contact:hover {
 	background-color: #023554;
 }
-.navigation, .welcome
-{
-	background: background: rgb(0,0,0);
-background: linear-gradient(190deg, rgba(0,0,0,1) 3%, rgba(0,0,0,0.7259278711484594) 49%, rgba(0,0,0,1) 97%), url('bg.jpg') no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-}
+
  .navigation .max-width .hamburger
 {
 	display: none;
@@ -181,6 +171,9 @@ background: linear-gradient(190deg, rgba(0,0,0,1) 3%, rgba(0,0,0,0.7259278711484
 {
 	display: none;
 }
+
+/*Welcome section style*/
+
 .welcome {
 	display: flex;
 	width: 100%;
@@ -310,142 +303,289 @@ background: linear-gradient(190deg, rgba(0,0,0,1) 3%, rgba(0,0,0,0.7259278711484
 #about:hover {
 	background-color: #023554;
 }
-.custom-shape-divider-bottom-1646199425 {
-    position: absolute;
-    bottom: -20vh;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+.about
+{
+	
+	width: 100%;
+	height: 120vh;
+	text-align: center;
+}
+.about .profile-container
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	
+}
+.about .profile-card
+{
+	background-color: #011d2f;
+	border-radius: 5px;
+	box-shadow: 0px 0px 40px 2px #0ff;
+	color: #B3B8CD;
+	padding: 30px;
+	position: relative;
+	width: 350px;
+	max-width: 100%;
+	text-align: center;
+	margin-top: 4%;
+	
+}
+.about .profile-card img
+{
+	width: 40%;
+	position: relative;
+}
+.about .profile-card .profile-img
+{
+	position: relative;
+	max-width: 100%;
+	margin-top: 10%;
+}
+.about .profile-card .profile-img:before
+{
+	content: "";
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	border: 0.25rem solid #3cb2fb;
+	border-radius: 50%;
+	right: 5.06rem;
+	top: -0.5rem;
+	
+}
+.about .profile-card h1
+{
+	font-family: Poppins;
+	font-size: 25px;
+}
+.about .profile-card h4
+{
+	font-family: Poppins;
+}
+.about .profile-card h2
+{
+	font-family: Poppins;
+	font-size: 15px;
+}
+.about .profile-card p
+{
+	font-family: Fredoka;
+
+}
+.about svg
+{
+	position: relative;
+}
+#mail
+{
+	padding: 0.5rem 2rem;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 10px;
+	border: 2px solid #035282;
+	background-color: transparent;
+	color: #ffffff;
+	font-family: Kanit;
+	transition: all 0.2s ease;
+}
+.about .social-icons
+{
+	list-style: none;
+	display: flex;
+	align-items: left;
+	justify-content: space-between;
+	margin-left: -8%;
+}
+.about .social-icons a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.about .social-icons li 
+{
+	margin-left: 8%;
+}
+.about .profile-container .profile-des h1
+{
+	font-size: 3vw;
+}
+.about .profile-container .profile-des
+{
+
+}
+.about .profile-container .profile-des p
+{
+	font-size: 1.5vw;
 }
 
-.custom-shape-divider-bottom-1646199425 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 10.3px);
-    height: 66px;
-}
 
-.custom-shape-divider-bottom-1646199425 .shape-fill {
-    fill: #ffffff;
-}
-@media only screen and (max-width: 768px) {
-	body
-	{
-		overflow-X: hidden;
-	}
-	.navigation .header
-	{
-		font-size: 5vh;
-	}
-	.nav-links
-	{
-		position: fixed;
-		right: 0px;
-		height: 92vh;
-		top: 15vh;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background: rgba(0,0,0,0.95);
-		width: 100% !important;
-		transition: transform 0.5s ease-in;
-		transform: translateX(100%);
-		z-index: 999;
-	}
-	.navigation .max-width .hamburger
-	{
-		display: block;
-	}
-	.nav-links li
-	{
-		opacity: 0;
-		margin-top: 15%;
-	}
-	.welcome .image-container
-	{
-		display: none;
-	}
-	.welcome .image-container img
-	{
-		width: 10rem;;
-	}
-	.nav-active
-	{
-	transform: translateX(0%);
-	
-	}
-	.nav-active + body
-	{
-			overflow: hidden;
-	}
-	@keyframes navLinkFadeIn
-	{
-		0%
-		{
-			opacity: 0;
-			transform: translateX(50px);
-		}
-		100%
-		{
-			opacity: 1;
-			transform: translateX(0px);
-		}
-	}
-	.lock-scroll
-	
-	{
-		overflow: hidden;
-	}
-	
-	.hamburger.toggle .bar:nth-child(2)
-	{
-		opacity: 0;
-	}
-	.hamburger.toggle .bar:nth-child(1)
-	{
-		transform: translateY(8px) rotate(45deg);
-	}
-	.hamburger.toggle .bar:nth-child(3)
-	{
-		transform: translateY(-8px) rotate(-45deg);
-	}
-	.navigation .icon-container
-	{
-		display: flex;
-		justify-content: center;
-		margin-left: 37%
-		
 
-	}
-	.navigation .social-icons li
-	{
-		margin-left: -5%;
-	}
-	.welcome .social-icons
-	{
-		display: none;
-	}
-	.welcome .welcome-container .text-1
-	{
-		font-size: 4vh;
-	}
-	.welcome .welcome-container .text-2
-	{
-		font-size: 5.8vh;
-	}
-	.welcome .welcome-container
-	{
-		text-align: center;
-		line-height: 2;
-	}
-	.welcome .welcome-container .text-3
-	{
-		font-size: 4.2vh;
-	}
-	.welcome .welcome-container button
-	{
-		margin-top: 30%;
-	}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
