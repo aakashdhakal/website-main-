@@ -26,7 +26,7 @@ html {
 }
 
 #preloader img {
-	width: 20rem;
+	width: 30rem;
 }
 /*Custom Scrollbar*/
 
@@ -309,7 +309,13 @@ nav ul i {
 	width: 100%;
 	height: 120vh;
 	text-align: center;
+	background: linear-gradient(121deg, rgba(0,0,0,1) 15%, rgba(0,0,0,0.9136029411764706) 51%, rgba(0,0,0,1) 89%), url('about.jpg') no-repeat;
+	background-size: cover; 
+	background-attachment: fixed; 
+	background-position: center;
 }
+
+
 .about .profile-container
 {
 	display: flex;
@@ -318,23 +324,48 @@ nav ul i {
 	color: white;
 	
 }
-.about .profile-card
+.about .profile-container .profile-des h1
 {
-	background-color: #011d2f;
-	border-radius: 5px;
-	box-shadow: 0px 0px 40px 2px #0ff;
-	color: #B3B8CD;
-	padding: 30px;
-	position: relative;
-	width: 350px;
-	max-width: 100%;
-	text-align: center;
-	margin-top: 4%;
-	
+	font-size: 3vw;
+	font-family: Supermercado One;
 }
-.about .profile-card img
+.about .profile-container .profile-des
 {
-	width: 40%;
+	color: white;
+}
+.about .profile-container .profile-des p
+{
+	font-size: 1.5vw;
+	font-family: Fredoka;
+}
+.about .profile-container .profile-des h3
+{
+	line-height: 2;
+	font-family: Source Code Pro;
+}
+.about .profile-container .profile-des a
+{
+	text-decoration: none;
+	font-family: Fredoka;
+	color: #1ea6fa;
+}
+.about .profile-container .profile-card
+{
+	width: 23%;
+	background: #011826;
+	padding: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 20px;
+	color: #B3B8CD;
+	font-family: Poppins;
+	overflow: hidden;
+	margin-right: 5%;
+	position: relative;
+}
+.profile-card img
+{
+	width: 50%;
 	position: relative;
 }
 .about .profile-card .profile-img
@@ -349,22 +380,29 @@ nav ul i {
 	position: absolute;
 	width: 120px;
 	height: 120px;
-	border: 0.25rem solid #3cb2fb;
+	border: 0.25rem solid #14ceff;
 	border-radius: 50%;
-	right: 5.06rem;
-	top: -0.5rem;
-	
+	right: 3.39rem;
+	top: -0.4rem;
+}
+.profile-card div ul
+{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.profile-card div ul li a
+{
+	font-size: 1.2rem;
+	color: white;
 }
 .about .profile-card h1
 {
 	font-family: Poppins;
 	font-size: 25px;
 }
-.about .profile-card h4
-{
-	font-family: Poppins;
-}
-.about .profile-card h2
+.about .profile-card h3
 {
 	font-family: Poppins;
 	font-size: 15px;
@@ -374,67 +412,24 @@ nav ul i {
 	font-family: Fredoka;
 
 }
-.about svg
-{
-	position: relative;
-}
-#mail
-{
+#mail {
 	padding: 0.5rem 2rem;
 	text-align: center;
 	cursor: pointer;
 	font-size: 20px;
-	border-radius: 10px;
-	border: 2px solid #035282;
-	background-color: transparent;
+	border-top: 2px solid #B3B8CD;
+	border-bottom: 2px solid #B3B8CD;
+	border-left: none;
+	border-right: none;
 	color: #ffffff;
 	font-family: Kanit;
 	transition: all 0.2s ease;
-}
-.about .social-icons
-{
-	list-style: none;
-	display: flex;
-	align-items: left;
-	justify-content: space-between;
-	margin-left: -8%;
-}
-.about .social-icons a
-{
-	text-decoration: none;
-	color: white;
-	font-size: 20px;
-}
-.about .social-icons li 
-{
-	margin-left: 8%;
-}
-.about .profile-container .profile-des h1
-{
-	font-size: 3vw;
-}
-.about .profile-container .profile-des
-{
-
-}
-.about .profile-container .profile-des p
-{
-	font-size: 1.5vw;
+	background: transparent;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#mail:hover {
+	background: #011826;
+}
 
 
 
