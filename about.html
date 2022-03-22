@@ -1,100 +1,267 @@
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Aakash Dhakal</title>
-      <link rel="icon" href="favicon.ico">
-      <link rel="stylesheet" type="text/css" href="style.css">
-      <script src="JS/script.js" defer></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla One|Kanit|Varela Round|Monda|Asap|Fredoka|Poppins|Source Code Pro|Supermercado One">
-      <script src="https://kit.fontawesome.com/e7e64de2ec.js" crossorigin="anonymous" async></script>
-   </head>
-   <body>
-      <div id="preloader">
-         <img src="preloader.gif">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aakash Dhakal</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="JS/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Fjalla One|Kanit|Varela Round|Monda|Asap|Fredoka|Poppins|Source Code Pro|Supermercado One"
+    />
+    <script
+      src="https://kit.fontawesome.com/e7e64de2ec.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+  </head>
+  <body>
+    <div id="preloader">
+      <img src="preloader.gif" />
+    </div>
+    <section
+      id="navigation"
+      class="navigation"
+      style="
+        background: linear-gradient(
+            121deg,
+            rgba(0, 0, 0, 1) 15%,
+            rgba(0, 0, 0, 0.9136029411764706) 51%,
+            rgba(0, 0, 0, 1) 89%
+          ),
+          url('about.jpg') no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      "
+    >
+      <header>
+        <nav class="navbar">
+          <div class="max-width">
+            <div class="logo-container">
+              <a href="#">
+                <h1 class="header">Aakash Dhakal</h1>
+              </a>
+            </div>
+            <ul class="nav-links">
+              <li>
+                <a href="index.html" class="nav-button"
+                  ><i class="fas fa-house"></i>&nbspHome</a
+                >
+              </li>
+              <li>
+                <a href="#" class="nav-button"
+                  ><i class="fa-solid fa-square-pen"></i>&nbspBlogs</a
+                >
+              </li>
+              <li>
+                <a href="about.html" id="active"
+                  ><i class="fa-solid fa-user"></i>&nbspAbout Me</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <button id="contact">Contact</button>
+                </a>
+              </li>
+              <div class="icon-container">
+                <ul class="social-icons">
+                  <li>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </ul>
+            <div class="hamburger" onclick="lockScroll();">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <section class="about">
+      <div class="max-width">
+        <div class="profile-container">
+          <div class="profile-des">
+            <h1>Namaste!</h1>
+            <br />
+            <p>
+              My name is Aakash Dhakal. I am 18 years old. I live in Gothatar,
+              Kathmandu.<br />
+              Currently, I am studying BSc.CSIT in National College of Computer
+              Studies (NCCS).
+            </p>
+            <br />
+            <p>
+              I have completed my school from Gothatar English Secondary School
+              <br />and my +2 from Xavier Int'l College. I have interests in
+              programming and coding.<br />
+              My interests also tend towards video and photography. You can
+              also<br />
+              view my photos by vising my instagram page
+              <a href="#">A.D Photography</a>.
+            </p>
+            <br />
+            <br />
+            <h3>
+              "It is better to fail in originality than to succeed in imitation"
+            </h3>
+            <h3>-Herman Melville</h3>
+          </div>
+          <div class="profile-card">
+            <div>
+              <div class="profile-img">
+                <img src="Images/profile.png" />
+              </div>
+              <br />
+              <h1>Aakash Dhakal</h1>
+              <h3>Student</h3>
+              <br />
+              <p>
+                Currently studying Bachelor in Computer Science and Information
+                Technology
+              </p>
+              <br />
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                </li>
+              </ul>
+              <br />
+              <a href="#"><button id="mail">Mail me</button></a>
+            </div>
+          </div>
+        </div>
       </div>
-      <section id="navigation" class="navigation" style="background: linear-gradient(121deg, rgba(0,0,0,1) 15%, rgba(0,0,0,0.9136029411764706) 51%, rgba(0,0,0,1) 89%), url('about.jpg') no-repeat; background-size: cover; background-attachment: fixed; background-position: center;">
-         <header>
-            <nav class="navbar">
-               <div class="max-width">
-                  <div class="logo-container">
-                     <a href="#">
-                        <h1 class="header">Aakash Dhakal</h1>
-                     </a>
-                  </div>
-                  <ul class="nav-links">
-                     <li><a href="index.html" class="nav-button"><i class="fas fa-house"></i>&nbspHome</a></li>
-                     <li><a href="#" class="nav-button"><i class="fa-solid fa-square-pen"></i>&nbspBlogs</a></li>
-                     <li><a href="about.html" id="active"><i class="fa-solid fa-user"></i>&nbspAbout Me</a></li>
-                     <li>
-                        <a href="#">
-                        <button id="contact">Contact</button>
-                        </a>
-                     </li>
-					 <div class="icon-container">
-			   <ul class="social-icons">
-					<li><a href="#"><i class="fab fa-github"></i></a></li>
-					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
-					<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-					
-			   </ul>
-			   
-			   </div>
-                  </ul>
-				  <div class="hamburger" onclick="lockScroll();">
-				<span class="bar"></span>
-				<span class="bar"></span>
-				<span class="bar"></span>
-			   </div>
-               </div>
-            </nav>
-         </header>
-      </section>
-	  <section class="about">
-		<div class="max-width">
-		<div class="profile-container">
-		<div class="profile-des">
-		<h1>Namaste!</h1>
-		<br>
-		<p>My name is Aakash Dhakal. I am 18 years old. I live in Gothatar, Kathmandu.<br>
-			Currently, I am studying BSc.CSIT in National College of Computer Studies (NCCS). </p>
-			<br>
-			<p>I have completed my school from Gothatar English Secondary School <br>and my +2 from Xavier Int'l College. I have interests in programming and coding.<br> My interests also tend towards video and photography. You can also<br> view my photos by vising my instagram page <a href="#">A.D Photography</a>.</p>
-		<br>
-		<br>
-		<h3>"It is better to fail in originality than to succeed in imitation"</h3>
-			<h3> -Herman Melville</h3>
-		</div>
-		<div class="profile-card">
-						<div>
-							<div class="profile-img">
-								<img src="Images/profile.png">
-							   </div>
-				<br>
-				<h1>Aakash Dhakal</h1>
-				<h3>Student</h3>
-				<br>
-				<p>Currently studying Bachelor in Computer Science and Information Technology</p>
-				<br>
-				<ul class="social-icons">
-					<li><a href="#"><i class="fab fa-github"></i></a></li>
-					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
-					<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-					
-			   </ul>
-			   <br>
-			   <a href="#"><button id="mail">Mail me</button></a>
-			</div>
-
-		</div>
-		</div>
-		</div>
-		
-	  </section>
+    </section>
+    <section class="message">
+      <div class="max-width">
+        <div class="msg-container">
+          <div class="form">
+            <div class="send-title">
+              <h1>Get in touch</h1>
+              <hr />
+            </div>
+            <form action="#">
+              <div class="name">
+                <p>Name<span>*</span></p>
+                <input type="text" placeholder="Ram" />
+              </div>
+              <div class="email">
+                <p>E-mail<span>*</span></p>
+                <input type="email" placeholder="abc@gmail.com" />
+              </div>
+              <div class="msg">
+                <p>Message<span>*</span></p>
+                <textarea
+                  rows="2"
+                  cols="30"
+                  type="text"
+                  placeholder="Hello"
+                ></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+          <div class="contact-details">
+            <div class="send-title">
+              <h1>Address</h1>
+              <hr />
+            </div>
+            <div class="content">
+              <div class="place">
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="text">Kageshwori Manahara-8, Kathmandu</span>
+              </div>
+              <div class="phone">
+                <span class="fas fa-phone-alt"></span>
+                <span class="text">+977-9866401330</span>
+              </div>
+              <div class="email-2">
+                <span class="fas fa-envelope"></span>
+                <span class="text">contact@aakashdhakal.com.np</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <footer>
+        <div class="max-width">
+          <div class="footer-container">
+            <div class="left">
+              <h1>Aakash Dhakal's <span>Blogs</span></h1>
+              <br />
+              <ul class="nav-links">
+                <li>
+                  <a href="https://aakashdhakal.me/" class="nav-button"
+                    >Home<span>&nbsp|</span></a
+                  >
+                </li>
+                <li>
+                  <a href="." id="active">&nbspBlogs<span>&nbsp|</span></a>
+                </li>
+                <li>
+                  <a
+                    href="https://aakashdhakal.me/about.html"
+                    class="nav-button"
+                    >&nbspAbout Me<span>&nbsp|</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://aakashdhakal.me/about.html"
+                    class="nav-button"
+                    >&nbspContact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>
+            Copyright &copy <a href="#">Aakash Dhakal</a> | All rights reserved
+          </p>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" style="transform: rotate(180deg);">
+<defs>
+   <linearGradient id="lgrad" x1="0%" y1="50%" x2="100%" y2="50%" >
+    
+          <stop offset="0%" style="stop-color:rgb(9,5,60);stop-opacity:1.00" />
+          <stop offset="100%" style="stop-color:rgb(70,13,13);stop-opacity:1.00" />
+
+    </linearGradient>
+  </defs>
+<path  d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill" fill="url(#lgrad)" fill-opacity="1"></path>
+</svg>
