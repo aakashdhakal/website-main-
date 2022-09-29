@@ -25,9 +25,42 @@ html {
   justify-content: center;
   overflow: hidden !important;
 }
-
-#preloader img {
-  width: 30rem;
+#preloader .ring{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  animation: ring 2s linear infinite;
+}
+@keyframes ring {
+  0%{
+    transform: rotate(0deg);
+    box-shadow: 5px 5px 5px #e65c00;
+  }
+  25%{
+    transform: rotate(90deg);
+    box-shadow: 5px 5px 5px #18b201;
+  }
+  50%{
+    transform: rotate(180eg);
+    box-shadow: 5px 5px 5px #0456c8;
+  }
+  100%{
+    transform: rotate(360deg);
+    box-shadow: 5px 5px 5px #e65c00;
+  }
+}
+#preloader .ring:before{
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(255,255,255,.3);
+}
+#preloader img{
+  width: 23%;
+  margin-right: 3px;
 }
 /*Custom Scrollbar*/
 
