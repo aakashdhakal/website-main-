@@ -19,8 +19,9 @@
   </head>
   <body>
     <div id="preloader">
-      <img src="preloader.gif" />
-    </div>
+      <div class="ring"></div>
+      <img src="logo.png">
+ </div>
     <section
       id="navigation"
       class="navigation"
@@ -167,7 +168,21 @@
           </div>
         </div>
       </div>
+      <svg
+      data-name="Layer 1"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 120"
+      preserveAspectRatio="none"
+    >
+      <path
+        d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
+        class="shape-fill"
+        fill="#0b0b0b"
+        fill-opacity="1"
+      ></path>
+    </svg>
     </section>
+    
     <section class="message">
       <div class="max-width">
         <div class="msg-container">
@@ -192,6 +207,7 @@
                   cols="30"
                   type="text"
                   placeholder="Hello"
+                  noresize
                 ></textarea>
               </div>
               <div class="btn">
